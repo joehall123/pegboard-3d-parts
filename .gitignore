@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+._*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OpenSCAD / 切片软件中间产物
+*.csg
+*.gcode
+*.3mf.bak
+
+# 临时导出
+/tmp-export/
+out.stl
+pegs10.stl
+hook5.stl
